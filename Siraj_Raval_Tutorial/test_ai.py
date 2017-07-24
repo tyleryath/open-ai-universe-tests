@@ -12,7 +12,7 @@ def determine_turn(turn, observation_n, j, total_sum, prev_total_sum, reward_n):
     #if lower than 0, change the direction
     #if we go 15+ iterations and get a reward each step, we're doing something correctly
     #then we will turn
-    if(j >= 15):
+    if(j >= 5):
         if(total_sum/j) == 0:
             turn = True
         else:
