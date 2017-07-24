@@ -1,9 +1,6 @@
 #This is following Siraj Raval's tutorial on OpenAI's Universe
-#https://www.youtube.com/watch?v=XI-I9i_GzIw&t=1975s
-
-#Bot will deteremine a two things
-#Step 1 Should I turn?
-#Step 2 Where do I turn?
+#Link to this tutorial here: https://www.youtube.com/watch?v=XI-I9i_GzIw&t=1975s
+#This program is meant to learn how to play CoasterRacer-v0 using a simple reinforcement learning technique
 
 import gym
 import universe
